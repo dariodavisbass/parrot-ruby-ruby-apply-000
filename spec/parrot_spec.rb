@@ -24,6 +24,6 @@ describe '#parrot' do
   end
 end
 def parrot (phrase="Pretty bird!")
-  phrase
+  puts phrase
   return "Squawk!"
 end
